@@ -1,0 +1,69 @@
+img {
+  width: 100%;
+}
+.btn:focus {
+  box-shadow: none;
+  z-index: 1;
+}
+.modal_window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.input_container {
+  width: 30vw;
+  height: 500px;
+  position: absolute;
+  background-color: white;
+  top: calc(50% - 250px);
+  left: calc(50% - 15vw);
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+.input_group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70%;
+}
+.input_group > form {
+  height: 100%;
+}
+.form-control {
+  background-color: rgb(227, 230, 233);
+}
+.form-control:focus {
+  background-color: rgb(242, 244, 246);
+}
+.card-img {
+  height: 200px;
+  box-shadow: 0px 0px 10px 5px #092138;
+}
+
+.card-body {
+  height: 250px;
+}
+
+.form-select {
+  width: 100%;
+  padding: 7px 10px;
+  background-color: #4e5d6c;
+  color: #ebebeb;
+}
+
+.desc {
+  height: 75px;
+}
+
+@media (max-width: 767px) {
+  .card-body {
+    height: 170px;
+  }
+  .desc {
+    height: 50px;
+  }
+}
